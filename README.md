@@ -6,6 +6,7 @@ Currently only supports SQLite Open / Close / Exec / Errmsg commands. Everything
 ## Requirements
 - SQLite.dll (this file)
 - sqlite3.dll (get from SQLite)
+          Get here: https://www.sqlite.org/2025/sqlite-dll-win-x64-3500400.zip
 
 ## How To
 1. Place the sqlite3.dll you got from SQLite into a folder in your project called \dlls\
