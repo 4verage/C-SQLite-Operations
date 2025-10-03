@@ -26,7 +26,11 @@ To open a database file (will create it if it does not exist):
 
     SQLite.Open(<filename as string>);
 
-To send a command to SQL:  
+To send a command to SQL (Returns INT):  
+
+    SQLite.Command(<SQL query string>, <IntPtr for error holder>);
+
+To send a query to SQL (Returns a List of Dictionaries (List<Dictionary<string, string?>>)):
 
     SQLite.Run(<SQL query string>, <IntPtr for error holder>);
 
